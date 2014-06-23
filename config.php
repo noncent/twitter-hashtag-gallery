@@ -1,9 +1,16 @@
 <?php
-define('CLIENT_ID','YOUR-TWITTER-APP-CLIENT-ID');
-define('CLIENT_SECRET','YOUR-TWITTER-APP-CLIENT-SECRET');
-define('ACCESS_TOKEN','YOUR-TWITTER-APP-ACCESS-TOKEN');
+/* Start session */
+session_id() ? session_start() : false;
 
+// ini_set('error_reporting', E_STRICT);
+ 
+/**
+ * @file
+ * A single location to store configuration.
+ */
 
-define('WEBSITE_URL','YOUR-SITE-URL');
-define('REDIRECT_URI','YOUR-SITE-URL');
-define('CALLBACK_URL','YOUR-CALLBACK-URL');
+define('CONSUMER_KEY', 'YOUR-TWITTER-APP-CONSUMER-KEY');
+define('CONSUMER_SECRET', 'YOUR-TWITTER-APP-CONSUMER-SECRET');
+define('ACCESS_TOKEN', 'YOUR-TWITTER-APP-ACCESS-TOKEN');
+define('ACCESS_TOKEN_SECRET', 'YOUR-TWITTER-APP-ACCESS-TOKEN-SECRET');
+define('OAUTH_CALLBACK', 'YOUR-CALLBACK-URL');
