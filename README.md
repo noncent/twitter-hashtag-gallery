@@ -84,3 +84,8 @@ var config = {
 	intervalTime : 10000
 }
 ```
+
+TwitterHashTagGallery - View
+============================
+
+![TwitterHashTagGallery - View](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/TwitterHashTagGallery-View.jpg "TwitterHashTagGallery - View")
