@@ -1,27 +1,43 @@
 TwitterHashTagGallery
 =====================
 
-Twitter Hash Tag Gallery is a simple jQuery plugin to get twitter #hashtag and @references written in jQuery and PHP. It is original created by Tom (http://www.webdevdoor.com/javascript-ajax/custom-twitter-feed-integration-jquery/) and I have updated script as a jQuery plugin with some new feature.
+Twitter Hash Tag Gallery is a simple jQuery plug-in to get twitter #hashtag and @references written in jQuery and PHP. It is original created by Tom (http://www.webdevdoor.com/javascript-ajax/custom-twitter-feed-integration-jquery/) and I have updated script as a jQuery plug-in with some new feature.
 
-TwitterHashTagGallery works with jQuery and PHP. You need to Twitter Oauth Library to run Twitter PHP app and also required a Twitter APP too..
+TwitterHashTagGallery works with jQuery and PHP. You need to Twitter OAuth and Twitter Library to run Twitter PHP app and also required a Twitter APP too..
 
-If you are beginer and don't know that how you can make a Twitter App then follow the below steps;
+
+Create a new Twitter APP
+========================
+
+If you are beginner and don't know that how you can make a Twitter App then follow the below steps;
 
 Login on Dev Twitter site with your twitter login credentials. http://dev.twitter.com/
 
-<h5>Create a new Twitter APP:</h5>
 
-Step First: ![First Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/first-screen.JPG "First Step")
+
+<h6>First Step </h6>
+![First Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/first-screen.jpg "First Step")
 <br />
-Step Second: ![Second Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/second-screen.JPG "Second Step")
+
+<h6>Second Step </h6>
+![Second Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/second-screen.jpg "Second Step")
 <br />
-Step Third: ![Third Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/third-screen.JPG "Third Step")
+
+<h6>Third Step </h6>
+![Third Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/third-screen.jpg "Third Step")
 <br />
-Step Four: ![Fourth Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/fourth-screen.JPG "Fourth Step")
+
+<h6>Fourth Step </h6>
+![Fourth Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/fourth-screen.jpg "Fourth Step")
 <br />
-Step Five: ![Fifth Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/fifth-screen.JPG "Fifth Step")
+
+<h6>Fifth Step </h6>
+![Fifth Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/fifth-screen.jpg "Fifth Step")
 <br />
-Step Six: ![Sixth Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/six-screen.JPG "Sixth Step")
+
+<h6>Final Step </h6>
+![Sixth Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/six-screen.jpg "Sixth Step")
+
 
 
 <h5>Update Config.php</h5>
@@ -36,7 +52,7 @@ TwitterHashTagGallery has some settings to complete user's task with ease;
 var config = {
 	// enter your hash tag to get tweets
 	setHashTags : '#Fifa',
-	// enter your user refrence to get tweets
+	// enter your user reference to get tweets
 	setUserRefrences : '@Fifa',
 	// how many tweets you want to fetch
 	twitterLimitCount : 4,
@@ -62,9 +78,9 @@ var config = {
 	showHeader : true,
 	// set loading gif image
 	loadingGIF : 'images/ajax-loader.gif',
-	// if want to update automaticlly
+	// if want to update automatically
 	autoUpdate : false,
-	// set time intrval in milisecond format //1000 = 1 second
+	// set time interval in millisecond format //1000 = 1 second
 	intervalTime : 10000
 }
 ```
