@@ -15,7 +15,7 @@
     		twitterProfileName : "Scott",
     		twitterScreenName : "Scott",
     		showDirectTweets : true,
-    		showReTweets : false,
+    		showReTweets : true,
     		showTweetLinks : true,
     		showProfilePics : true,
     		showTweetActions : true,
