@@ -9,9 +9,9 @@
     <link rel="stylesheet" type="text/css" href="css/twitter-styles.css" />
     <script type="text/javascript">
     var config = {
-    		setHashTags : '#Fifa',
-			setUserRefrences : '@Fifa',
-    		twitterLimitCount : 4,
+    		setHashTags : '#Hollywood',
+			setUserRefrences : '@Hollywood',
+    		twitterLimitCount : 5,
     		twitterProfileName : "Scott",
     		twitterScreenName : "Scott",
     		showDirectTweets : true,
@@ -23,7 +23,7 @@
     		showLoader : true,
     		showHeader : true,
     		loadingGIF : 'images/ajax-loader.gif',    		
-    		autoUpdate : false, // set true if wanna update automatic
+    		autoUpdate : true, // set true if wanna update automatic
 			intervalTime : 10000 // 10 second
     	}
     	$(document).ready(function () {
