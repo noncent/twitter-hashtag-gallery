@@ -3,7 +3,7 @@ TwitterHashTagGallery
 
 Twitter Hash Tag Gallery is a simple jQuery plug-in to get twitter #hashtag and @references written in jQuery and PHP. It is original created by Tom (http://www.webdevdoor.com/javascript-ajax/custom-twitter-feed-integration-jquery/) and I have updated script as a jQuery plug-in with some new feature.
 
-TwitterHashTagGallery works with jQuery and PHP. You need to Twitter OAuth and Twitter Library to run Twitter PHP app and also required a Twitter APP too..
+TwitterHashTagGallery works with jQuery and PHP. You need to Twitter OAuth and Twitter Library to run Twitter PHP app and also required a Twitter APP..
 
 
 Create a new Twitter APP
