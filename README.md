@@ -11,7 +11,21 @@ Login on Dev Twitter site with your twitter login credentials. http://dev.twitte
 
 <h5>Create a new Twitter APP:</h5>
 
+<<<<<<< HEAD
 Step First: ![First Step](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "First Step")
+=======
+![First Step:](https://github.com/neerajsinghsonu/TwitterHashTagGallery/blob/master/doc/first-screen.JPG "First Step")
+
+![Second Step:](https://github.com/neerajsinghsonu/TwitterHashTagGallery/blob/master/doc/second-screen.JPG "Second Step")
+
+![Third Step:](https://github.com/neerajsinghsonu/TwitterHashTagGallery/blob/master/doc/third-screen.JPG "Third Step")
+
+![Fourth Step:](https://github.com/neerajsinghsonu/TwitterHashTagGallery/blob/master/doc/fourth-screen.JPG "Fourth Step")
+
+![Fifth Step:](https://github.com/neerajsinghsonu/TwitterHashTagGallery/blob/master/doc/fifth-screen.JPG "Fifth Step")
+
+![Six Step:](https://github.com/neerajsinghsonu/TwitterHashTagGallery/blob/master/doc/six-screen.JPG "Six Step")
+>>>>>>> origin/master
 
 
 <h5>Update Config.php</h5>
