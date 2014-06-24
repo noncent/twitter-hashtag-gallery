@@ -151,8 +151,9 @@
 						feedHTML += '</div>';
 						displayCounter++;
 					}
-				}
-				// append the data in carrier
+				}				
+			}
+			// append the data in carrier
 				_self.prepend(feedHTML);
 				// manage tweet actions
 				if (config.showTweetActions === true) {
@@ -180,7 +181,6 @@
 						return false;
 					});
 				}
-			}
 			// now hide the loader
 			hideLoader();
 		};
@@ -260,7 +260,7 @@
 		var config = $.extend({
 				setHashTags : '#Fifa',
 				setUserRefrences : '@Fifa',
-				twitterLimitCount : 15,
+				twitterLimitCount : 10,
 				twitterProfileName : "Scott",
 				twitterScreenName : "Scott",
 				showDirectTweets : true,
