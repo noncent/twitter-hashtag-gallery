@@ -68,7 +68,7 @@
 		 * Get the twitter max id from element
 		 */
 		var _getMaxTweetID = function () {
-			$('#twitter-data').attr('data-maxid');
+			return $('#twitter-data').attr('data-maxid');
 		};
 		
 		/**
