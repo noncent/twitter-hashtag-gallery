@@ -1,91 +1,81 @@
-TwitterHashTagGallery V1.0 BETA
-================================
+# TwitterHashTagGallery v1.0 BETA
 
-Twitter Hash Tag Gallery is a simple jQuery plug-in to get twitter #hashtag and @references written in jQuery and PHP. It is original created by Tom (http://www.webdevdoor.com/javascript-ajax/custom-twitter-feed-integration-jquery/) and I have updated script as a jQuery plug-in with some new feature.
+TwitterHashTagGallery is a jQuery plugin designed to retrieve Twitter hashtags and references using jQuery and PHP. Originally created by Tom ([WebDevDoor](http://www.webdevdoor.com/javascript-ajax/custom-twitter-feed-integration-jquery/)), this version is an adaptation of the original script, updated with new features and packaged as a jQuery plugin.
 
-TwitterHashTagGallery works with jQuery and PHP. You need to Twitter OAuth and Twitter Library to run Twitter PHP app and also required a Twitter APP..
+## Requirements
 
+To run TwitterHashTagGallery, you'll need:
 
-Create a new Twitter APP
-========================
+- Twitter OAuth
+- Twitter Library for PHP
+- Twitter App credentials
 
-If you are beginner and don't know that how you can make a Twitter App then follow the below steps;
+## Getting Started
 
-Login on Dev Twitter site with your twitter login credentials. http://dev.twitter.com/
+If you're new to creating a Twitter App, follow these steps:
 
+1. **Create a Twitter App:**
+   - Log in to the [Twitter Developer site](http://dev.twitter.com/) with your Twitter credentials.
 
+   ![First Step](./doc/first-screen.jpg)
 
-<h6>First Step </h6>
-![First Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/first-screen.jpg "First Step")
-<br />
+   ![Second Step](./doc/second-screen.jpg)
 
-<h6>Second Step </h6>
-![Second Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/second-screen.jpg "Second Step")
-<br />
+   ![Third Step](./doc/third-screen.jpg)
 
-<h6>Third Step </h6>
-![Third Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/third-screen.jpg "Third Step")
-<br />
+   ![Fourth Step](./doc/fourth-screen.jpg)
 
-<h6>Fourth Step </h6>
-![Fourth Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/fourth-screen.jpg "Fourth Step")
-<br />
+   ![Fifth Step](./doc/fifth-screen.jpg)
 
-<h6>Fifth Step </h6>
-![Fifth Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/fifth-screen.jpg "Fifth Step")
-<br />
+   ![Final Step](./doc/six-screen.jpg)
 
-<h6>Final Step </h6>
-![Sixth Step](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/six-screen.jpg "Sixth Step")
+2. **Configuration:**
+   - Once your Twitter App is created, obtain the necessary tokens and keys and update the `config.php` settings accordingly.
 
+3. **TwitterHashTagGallery Script Settings:**
+   - TwitterHashTagGallery offers customizable settings to tailor the user experience. Modify the `config` object in your JavaScript file as needed.
 
-
-<h5>Update Config.php</h5>
-
-Get secrets token and keys and update config.php settings.
-
-
-<h5>TwitterHashTagGallery Script Settings:</h5>
-TwitterHashTagGallery has some settings to complete user's task with ease;
+### Example Configuration (config.js):
 
 ```javascript
 var config = {
-	// enter your hash tag to get tweets
+	// Enter the hashtag to fetch tweets
 	setHashTags : '#Fifa',
-	// enter your user reference to get tweets
-	setUserRefrences : '@Fifa',
-	// how many tweets you want to fetch
+	// Enter the user reference to fetch tweets
+	setUserReferences : '@Fifa',
+	// Define the number of tweets to retrieve
 	twitterLimitCount : 4,
-	// optional
+	// Optional: Twitter profile name
 	twitterProfileName : "Scott",
-	// optional
+	// Optional: Twitter screen name
 	twitterScreenName : "Scott",
-	// if want to see direct tweets
+	// Show direct tweets
 	showDirectTweets : true,
-	// if want to see re-tweets
+	// Show retweets
 	showReTweets : true,
-	// if want to see teets link
+	// Show tweet links
 	showTweetLinks : true,
-	// if want to see user's profile image
+	// Show user profile pictures
 	showProfilePics : true,
-	// if want to tweet actions like re-tweet, share ..
+	// Show tweet actions (e.g., retweet, share)
 	showTweetActions : true,
-	// if specify the re-tweet
+	// Show retweet indicator
 	showReTweetIndicator : true,
-	// show the waiting loader
+	// Show loader
 	showLoader : true,
-	// show the top header
+	// Show header
 	showHeader : true,
-	// set loading gif image
+	// Set loading GIF image
 	loadingGIF : 'images/ajax-loader.gif',
-	// if want to update automatically
+	// Enable auto-update
 	autoUpdate : false,
-	// set time interval in millisecond format //1000 = 1 second
+	// Set time interval in milliseconds (e.g., 10000 = 10 seconds)
 	intervalTime : 10000
 }
 ```
 
-TwitterHashTagGallery - View
-============================
+## TwitterHashTagGallery Preview
 
-![TwitterHashTagGallery - View](https://raw.githubusercontent.com/neerajsinghsonu/TwitterHashTagGallery/master/doc/TwitterHashTagGallery-View.jpg "TwitterHashTagGallery - View")
+![TwitterHashTagGallery Preview](./doc/TwitterHashTagGallery-View.jpg)
+
+---
